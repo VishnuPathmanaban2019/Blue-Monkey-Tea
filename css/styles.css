@@ -1,0 +1,187 @@
+/*CSS Style Sheet for Blue Monkey Tea*/
+
+/*Body Text Formatting*/
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-size: 100%;
+    line-height: 1.7em;
+    color: #000000;
+}
+
+#container {
+    width: 70%;
+    margin: 10px auto;
+    /*border: 1px solid gray;*/
+}
+
+#top_row {
+    border-bottom: 1px dotted #ccc;
+    padding: .5em .5em 3em .5em;
+}
+
+#top_row header {
+    margin-bottom: -2.5em;
+}
+
+/*Website Title Formatting*/
+#top_row h1 {
+    color: #6BC4FF;
+    font-size: 2.25em;
+    letter-spacing: -2px;
+}
+
+#top_row h3 {
+    font-size: 1em;
+    font-weight: 200;
+}
+
+#top_row nav {
+    float: right;
+}
+
+#top_row nav a {
+    text-decoration: none;
+    font-size: 1.125em;
+    font-weight: 400;
+    padding: 15px;
+    color: #6BC4FF;
+}
+
+#top_row nav a.selected {
+    background: #f6f6f6;
+    color: #bbbbbb;
+}
+
+#top_row nav a.selected:hover {
+    background: #f6f6f6;
+    color: #bbbbbb;
+}
+
+#top_row nav a:hover {
+    background: #f6f6f6;
+    color: #6BC4FF;
+}
+
+#content {
+    float: left;
+    width: 70%;
+    margin: 0;
+    padding: 1em;
+    border-right: 1px dotted #ccc;
+}
+
+#content h3 {
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    margin: 30px 0 10px 0;
+    font-weight: normal;
+}
+
+#sidebar {
+    float: left;
+    padding: 1em;
+    font-size: .875em;
+}
+
+#sidebar h3 {
+    font-size: 1.125em;
+    border-bottom: 1px dotted #ccc
+}
+
+footer {
+    clear: both;
+    margin: 0;
+    padding: .5em;
+    color: #333333;
+    font-variant: small-caps;
+    font-size: .813em;
+    text-align: center;
+    border-top: 1px dotted #ccc;
+}
+
+#content img {
+    float: left;
+    margin: .5em .5em 0em 0em;
+}
+
+#bio {
+    margin-top: 2.75em;
+    font-size: .875em;
+}
+
+#bio a {
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+    color: #000;
+}
+
+#bio a:hover {
+    color: #6BC4FF;
+}
+
+#sidebar a.cmu {
+    text-decoration: none;
+    color: #6BC4FF;
+}
+
+#sidebar a.cmu:hover {
+    text-decoration: underline;
+    color: #6BC4FF;
+}
+
+/*Table Formatting with Blue Border Currently*/
+#content table {
+    border: 3px solid #3652F0;
+    border-spacing: 3px;
+    margin: auto;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+#content th {
+    height: 40px;
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid #333333;
+}
+
+#content td {
+    padding: 2px;
+    text-align: center;
+    border: 1px solid #333333;
+}
+
+#content form {
+    margin: auto;
+    border: 1px solid #3652F0;
+    border-spacing: 10px;
+}
+
+#content form legend {
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+#content form label {
+    font-weight: bold;
+    text-align: center;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+/*Image Alignment*/
+img {
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
